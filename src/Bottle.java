@@ -1,12 +1,17 @@
 public class Bottle extends Product {
     private double volume;
-    public Bottle(String nameProduct, double cost, double volume) {
-        super(nameProduct, cost);
+
+    public Bottle(String name, double price, double volume) {
+        super(name, price);
         this.volume = volume;
+    }
+
+    public double getVolume() {
+        return volume;
     }
 
     @Override
     public String toString() {
-        return super.toString() + "volume= " + volume;
+        return super.toString() + ", volume: " + volume;
     }
 }

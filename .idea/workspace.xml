@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8cdff44-68bb-4586-ba76-4c8fd683af62" name="Default Changelist" comment="" />
+    <list default="true" id="a8cdff44-68bb-4586-ba76-4c8fd683af62" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/VendingMachine2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/VendingMachine2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VendingMachine2/Bottle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VendingMachine2/Bottle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VendingMachine2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VendingMachine2/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VendingMachine2/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VendingMachine2/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/VendingMachine2/VendingMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/VendingMachine2/VendingMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bottle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bottle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/VendingMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VendingMachine.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,13 +27,28 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2Il1rexGKS52uEewNpFIxyNMORU" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+      <recent name="tree" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -57,10 +87,32 @@
       <option name="presentableId" value="Default" />
       <updated>1670741555599</updated>
       <workItem from="1670741558219" duration="7231000" />
+      <workItem from="1670950139698" duration="8629000" />
+      <workItem from="1671124677702" duration="437000" />
+      <workItem from="1671125136456" duration="1307000" />
+      <workItem from="1675962020159" duration="7579000" />
+      <workItem from="1679641765771" duration="6033000" />
+      <workItem from="1679727367370" duration="8467000" />
+      <workItem from="1679936861692" duration="6592000" />
+      <workItem from="1681408600889" duration="6659000" />
+      <workItem from="1685033992099" duration="7941000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

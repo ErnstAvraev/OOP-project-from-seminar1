@@ -2,35 +2,35 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class VendingMachine {
+    private int capacity;
     private List<Product> productList;
 
-    public VendingMachine(List<Product> productList) {
-        this.productList = productList;
-    }
-
     public VendingMachine() {
-        this(new ArrayList<>());
-    }
-
-    public List<Product> getProductList() {
-        return productList;
-    }
-
-    public void setProductList(List<Product> productList) {
-        this.productList = productList;
+        productList = new ArrayList<>();
+        capacity = 100;
     }
 
     public void addProduct(Product product){
-        productList.add(product);
+        if (productList.size() < capacity){
+            productList.add(product);
+        }
     }
 
-    public List<Product> getProductByCost(int cost){
-        List<Product> res = new ArrayList<>();
+    public Product findProductByName(String name){
         for (Product product: productList){
-            if (product.getCost() <= cost){
-                res.add(product);
+            if (product.getName().equalsIgnoreCase(name)){
+                return product;
             }
         }
-        return res;
+        return null;
+    }
+
+    public String getProductList() {
+        StringBuilder stringBuilder = new StringBuilder();
+        for (Product product: productList){
+            stringBuilder.append(product);
+            stringBuilder.append("\n");
+        }
+        return stringBuilder.toString();
     }
 }
